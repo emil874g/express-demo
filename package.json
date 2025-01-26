@@ -1,0 +1,39 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "build": "npx tsc",
+  "start": "node dist/server.js",
+  "dev": "npx tsx watch src/server.ts",
+  "lint": "eslint . --fix",
+  "test": "vitest",
+  "test:ui": "vitest --ui"
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emil874g/express-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emil874g/express-demo/issues"
+  },
+  "homepage": "https://github.com/emil874g/express-demo#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.10",
+    "eslint": "^9.19.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0",
+    "vitest": "^3.0.4"
+  },
+  "dependencies": {
+    "express": "^5.0.1"
+  }
+}
